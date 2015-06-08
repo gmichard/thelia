@@ -780,6 +780,7 @@ return array(
     'Search page - CSS stylesheet' => 'Search page - CSS stylesheet',
     'Search page - after javascript include' => 'Search page - after javascript include',
     'Search page - after javascript initialisation' => 'Search page - after javascript initialisation',
+    'Secret key for form CSRF token' => 'Secret key for form CSRF token',
     'Senegal' => 'Senegal',
     'Seychelles' => 'Seychelles',
     'Shipping configuration' => 'Shipping configuration',

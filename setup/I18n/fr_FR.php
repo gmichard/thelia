@@ -780,6 +780,7 @@ return array(
     'Search page - CSS stylesheet' => 'Page de recherche - feuille de style CSS',
     'Search page - after javascript include' => 'Page de recherche - après l\'inclusion des javascript',
     'Search page - after javascript initialisation' => 'Page de recherche - après l\'initialisation du javascript',
+    'Secret key for form CSRF token' => 'Clé secrète pour le jeton CSRF des formulaires',
     'Senegal' => 'Sénégal',
     'Seychelles' => 'Seychelles',
     'Shipping configuration' => 'Configuration des transports',

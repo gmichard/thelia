@@ -1435,7 +1435,10 @@ INSERT INTO `config_i18n` (`id`, `locale`, `title`, `chapo`, `description`, `pos
     (57, '{$locale}', {intl l='[Firewall] Activate the firewall' locale=$locale}, NULL, NULL, NULL),
     (58, '{$locale}', {intl l='Allow slash ended uri' locale=$locale}, NULL, NULL, NULL),
     (59, '{$locale}', {intl l='Show error message instead of a white page on a server error' locale=$locale}, NULL, NULL, NULL),
-    (60, '{$locale}', {intl l='Filename of the error page' locale=$locale}, NULL, NULL, NULL){if ! $locale@last},{/if}
+    (60, '{$locale}', {intl l='Filename of the error page' locale=$locale}, NULL, NULL, NULL),
+    (61, '{$locale}', {intl l='Allow customers to change their email. 1 for yes, 0 for no' locale=$locale}, NULL, NULL, NULL),
+    (62, '{$locale}', {intl l='Ask the customers to confirm their email, 1 for yes, 0 for no' locale=$locale}, NULL, NULL, NULL),
+    (63, '{$locale}', {intl l='Secret key for form CSRF token' locale=$locale}, NULL, NULL, NULL){if ! $locale@last},{/if}
 
 {/foreach}
 ;
